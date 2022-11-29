@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resto - Landing Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="resources/icons/bootstrap-icons.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <section id="navbar">
+    <nav class="navbar navbar-expand-lg">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Category
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Vegan</a></li>
+            <li><a class="dropdown-item" href="#">Non-vegan</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About us</a>
+        </li>
+      </ul>
+      <a class="navbar-brand me-auto brand" href="#"> <img src="resources/assets/Home.svg" alt="Home Icon"> Resto</a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2 input-search" type="search" placeholder="&#xF52A;  Search your favorite food"
+          aria-label="Search">
+        <button class="btn btn-secondary btn-login" type="submit">Log In</button>
+      </form>
+    </nav>
+  </section>
+
+  <!-- Ads Section -->
+  <section id="ads">
+    <div class="ms-5 text-center">
+      <div class="single-image ms-5">
+        <div class="d-flex flex-row mb-3">
+          <div class="p-3"><img src="resources/assets/image 4.png" class="mx-auto" alt=""></div>
+          <div class="p-3"><img src="resources/assets/image 5.png" class="mx-auto" alt=""></div>
+        </div>
+      </div>
+
+      <div class="info-card">
+
+        <div class="top-section-ads-card">
+          <div class="rating">
+            <p class="rating-star">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              5.0
+              <span class="total-rating">(5.2K+)</span>
+            </p>
+          </div>
+
+          <div class="title">
+            <p>Padang Restaurant</p>
+          </div>
+
+          <div class="price">
+            <p>IDR 49.999 - IDR 560.000</p>
+          </div>
+
+          <div class="place">
+            <p><i class="bi bi-geo-alt-fill"></i> Padang, Indonesia</p>
+          </div>
+        </div>
+
+        <div class="bottom-section-ads-card">
+          <button class="btn btn-warning">Make Reservation <i class="bi bi-chevron-right"></i></button>
+          <p class="note"><i class="bi bi-info-square"></i> No extra cost</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us Section -->
+  <section id="why-us">
+    <div class="header text-center">
+      <p class="header-subtitle">
+        SPECIAL BENEFIT FOR YOU
+      </p>
+      <p class="header-title">
+        Why Should Choose Us?
+      </p>
+    </div>
+
+    <div class="benefit mb-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="resources/assets/discount.png" alt="">
+                <h5 class="card-title">Extra Discount</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Get your special discount by using our reservation</h6>
+              </div>
+              <a href="#" class="card-footer">
+                <span class="text-footer">View Details <i class="bi bi-chevron-right"></i></>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="resources/assets/eat.png" alt="">
+                <h5 class="card-title">Come and Eat</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Get your own table quickly & without waiting in line</h6>
+              </div>
+              <a href="#" class="card-footer">
+                <span class="text-footer">View Details <i class="bi bi-chevron-right"></i></>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="resources/assets/fee.png" alt="">
+                <h5 class="card-title">No Extra Fee</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Get tax free if you want to order food and make a reservation
+                </h6>
+              </div>
+              <a href="#" class="card-footer">
+                <span class="text-footer">View Details <i class="bi bi-chevron-right"></i></>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="resources/assets/guaranteed.png" alt="">
+                <h5 class="card-title">Guaranteed Cleanliness</h5>
+                <h6 class="card-subtitle mb-2 text-muted">We ensure the cleanliness of the place as well as the food
+                </h6>
+              </div>
+              <a href="#" class="card-footer">
+                <span class="text-footer">View Details <i class="bi bi-chevron-right"></i></>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Most Popular Restaurant Section -->
+  <section id="most-popular-restaurant">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 my-auto left-section">
+          <div class="header">
+            <p class="header-subtitle">
+              Top 3 Featured Restaurant
+            </p>
+            <p class="header-title">
+              Most Popular Restaurants
+            </p>
+          </div>
+          <p class="description">The best restaurant in our opinion is how much customers like it in terms of place,
+            price, comfort and of
+            course the taste of
+            the food itself.</p>
+          <button class="btn btn-warning mt-5">View All Restaurant <i class="bi bi-chevron-right"></i></button>
+        </div>
+        <div class="col-lg-8 right-section">
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <div class="card img-fluid">
+                <img class="card-img-top w-100" src="resources/assets/image 1.png">
+                <div class="card-img-overlay d-flex flex-column">
+                  <div class="info-card position-absolute">
+                    <div class="row">
+                      <div class="col-lg-9">
+                        <div class="rating">
+                          <p class="rating-star">
+                            <i class="bi bi-star-fill"></i>
+                            5.0
+                            <span class="total-rating">(7.6K+)</span>
+                          </p>
+                        </div>
+                        <div class="title">
+                          <p>Bind Balorant</p>
+                        </div>
+                        <div class="place">
+                          <p><i class="bi bi-geo-alt-fill"></i> Jakarta, Indonesia</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 my-auto">
+                        <button class="btn btn-warning"><i class="bi bi-arrow-right"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card img-fluid h-100">
+                <img class="card-img-top w-100 h-100" src="resources/assets/image 2.png">
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card img-fluid h-100">
+                <img class="card-img-top w-100 h-100" src="resources/assets/image 3.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nearest Restaurant Section -->
+  <section id="nearest-restaurant">
+    <div class="container">
+      <div class="d-flex flex-row justify-content-between mb-3">
+        <div class="p-2">
+          <div class="header">
+            <p class="header-subtitle">
+              Restaurant Based By City
+            </p>
+            <p class="header-title">
+              Restaurant Near You
+            </p>
+          </div>
+        </div>
+        <div class="p-2 my-auto">
+          <div class="dropdown">
+            <button class="btn btn-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-geo-alt-fill"></i> Jakarta, Indonesia <i class="bi bi-chevron-down"></i>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end text-end">
+              <li><a class="dropdown-item" href="#">Bandung, Indonesia</a></li>
+              <li><a class="dropdown-item" href="#">Yogyakarta, Indonesia</a></li>
+              <li><a class="dropdown-item" href="#">Kota Banjar, Indonesia</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card img-fluid">
+            <img class="card-img-top w-100" src="resources/assets/image 6.png">
+            <div class="card-img-overlay d-flex flex-column">
+              <div class="info-card position-absolute">
+                <div class="row">
+                  <div class="col-lg-9">
+                    <div class="rating">
+                      <p class="rating-star">
+                        <i class="bi bi-star-fill"></i>
+                        5.0
+                        <span class="total-rating">(6.6K+)</span>
+                      </p>
+                    </div>
+                    <div class="title">
+                      <p>Batavia Restaurant</p>
+                    </div>
+                    <div class="price">
+                      <p>IDR 29.000 - IDR 259.999</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 my-auto">
+                    <button class="btn btn-warning"><i class="bi bi-arrow-right"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card img-fluid">
+            <img class="card-img-top w-100" src="resources/assets/image 7.png">
+            <div class="card-img-overlay d-flex flex-column">
+              <div class="info-card position-absolute">
+                <div class="row">
+                  <div class="col-lg-9">
+                    <div class="rating">
+                      <p class="rating-star">
+                        <i class="bi bi-star-fill"></i>
+                        5.0
+                        <span class="total-rating">(3.6K+)</span>
+                      </p>
+                    </div>
+                    <div class="title">
+                      <p>Split Ascent Restaurant</p>
+                    </div>
+                    <div class="price">
+                      <p>IDR 49.999 - IDR 560.000</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 my-auto">
+                    <button class="btn btn-warning"><i class="bi bi-arrow-right"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card img-fluid">
+            <img class="card-img-top w-100" src="resources/assets/image 8.png">
+            <div class="card-img-overlay d-flex flex-column">
+              <div class="info-card position-absolute">
+                <div class="row">
+                  <div class="col-lg-9">
+                    <div class="rating">
+                      <p class="rating-star">
+                        <i class="bi bi-star-fill"></i>
+                        5.0
+                        <span class="total-rating">(11K+)</span>
+                      </p>
+                    </div>
+                    <div class="title">
+                      <p>Daza Fracture Restaurant</p>
+                    </div>
+                    <div class="price">
+                      <p>IDR 29.999 - IDR 560.000</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 my-auto">
+                    <button class="btn btn-warning"><i class="bi bi-arrow-right"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row text-center mt-5">
+        <div class="col-lg-12">
+          <button class="btn btn-warning mt-3">View All Restaurant <i class="bi bi-chevron-right"></i></button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Expert Chef Section -->
+  <section id="expert-chef">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="single-image">
+            <img class="w-100 mt-3" src="resources/assets/image 9.png">
+            <div class="card-exp">
+              <div class="card-body">
+                <img src="resources/assets/exp.png" alt="">
+                <h5 class="card-title">12 Years</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Experience</h6>
+              </div>
+            </div>
+            <div class="card-detail">
+              <div class="card-body">
+                <div class="d-flex flex-row">
+                  <div class="img-fluid"><img src="resources/assets/image 10.png" alt=""></div>
+                  <div class="d-flex flex-column my-auto">
+                    <div class="px-3">
+                      <h6 class="card-subtitle mb-2 text-muted">Chef at restaurant:</h6>
+                    </div>
+                    <div class="px-3">
+                      <h5 class="card-title">Pearl Dolphin</h5>
+                    </div>
+                    <div class="px-3 pt-4"><a href="#">View Details <i class="bi bi-chevron-right"></i></a></div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="header">
+            <p class="header-subtitle">
+              Top 4 Expert Chefs
+            </p>
+            <p class="header-title">
+              Expert Chefs in Fuddy
+            </p>
+          </div>
+          <div class="d-flex flex-column mb-3 ps-4">
+            <div class="p-2">
+              <div class="info-card">
+                <div class="d-flex flex-row mb-3 justify-content-between">
+                  <div class="p-2">
+                    <div class="rating">
+                      <p class="rating-star">
+                        <span class="total-rating">PIZZA</span>
+                      </p>
+                    </div>
+                    <div class="title">
+                      <p>Phoenix Satcheup</p>
+                    </div>
+                    <div class="place">
+                      <p><i class="bi bi-geo-alt-fill"></i> Jakarta, Indonesia</p>
+                    </div>
+                  </div>
+                  <div class="p-2 my-auto">
+                    <a href="#" class="">Profile Details <i class="bi bi-chevron-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-2">
+              <div class="info-card">
+                <div class="d-flex flex-row mb-3 justify-content-between">
+                  <div class="p-2">
+                    <div class="rating">
+                      <p class="rating-star">
+                        <span class="total-rating">VEGAN</span>
+                      </p>
+                    </div>
+                    <div class="title">
+                      <p>Chamber Botfrag</p>
+                    </div>
+                    <div class="place">
+                      <p><i class="bi bi-geo-alt-fill"></i> Bandung, Indonesia</p>
+                    </div>
+                  </div>
+                  <div class="p-2 my-auto">
+                    <a href="#" class="">Profile Details <i class="bi bi-chevron-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-2">
+              <div class="info-card">
+                <div class="d-flex flex-row mb-3 justify-content-between">
+                  <div class="p-2">
+                    <div class="rating">
+                      <p class="rating-star">
+                        <span class="total-rating">Roast Chicken</span>
+                      </p>
+                    </div>
+                    <div class="title">
+                      <p>Asep Vandal</p>
+                    </div>
+                    <div class="place">
+                      <p><i class="bi bi-geo-alt-fill"></i> Sunda, Indonesia</p>
+                    </div>
+                  </div>
+                  <div class="p-2 my-auto">
+                    <a href="#" class="">Profile Details <i class="bi bi-chevron-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-2">
+              <div class="info-card">
+                <div class="d-flex flex-row mb-3 justify-content-between">
+                  <div class="p-2">
+                    <div class="rating">
+                      <p class="rating-star">
+                        <span class="total-rating">Beef steak</span>
+                      </p>
+                    </div>
+                    <div class="title">
+                      <p>I Made Invoker </p>
+                    </div>
+                    <div class="place">
+                      <p><i class="bi bi-geo-alt-fill"></i> Bali, Indonesia</p>
+                    </div>
+                  </div>
+                  <div class="p-2 my-auto">
+                    <a href="#" class="">Profile Details <i class="bi bi-chevron-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-4">
+              <button class="btn btn-warning mt-3">View All Restaurant <i class="bi bi-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap File JS -->
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

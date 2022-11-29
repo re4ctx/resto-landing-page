@@ -1,0 +1,461 @@
+/* Font */
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('../resources/fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../resources/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../resources/fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: Nunito;
+  src: url('../resources/fonts/Nunito-ExtraBold.ttf');
+}
+
+body {
+  background-color: #fafafa;
+  padding: 0;
+  margin: 0;
+}
+
+/* Custom Card */
+
+.card {
+  border: none;
+  border-radius: 24px;
+}
+
+.info-card {
+  width: 90%;
+  height: 131px;
+  bottom: 10px;
+  line-height: 0.5;
+  border-radius: 24px;
+  text-align: left;
+  background-color: white;
+  padding: 24px 0px 24px 24px;
+}
+
+.info-card .rating-star {
+  color: #ffb800;
+  font-family: 'Poppins-SemiBold', sans-serif;
+  font-size: 16px;
+}
+
+.info-card .rating-star .total-rating {
+  color: #656565;
+  font-family: 'Poppins-Regular', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.info-card .title {
+  color: #232631;
+  font-family: 'Poppins-SemiBold', sans-serif;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.info-card .place {
+  color: #656565;
+  font-family: 'Poppins-Regular', sans-serif;
+  font-size: 16px;
+}
+
+.info-card .price {
+  color: #656565;
+  font-family: 'Poppins-SemiBold', sans-serif;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+/* End Custom Card */
+
+/* Custom Button */
+.btn-warning {
+  padding: 13px 12px 13px 12px;
+  font-size: 26px;
+  border-radius: 12px;
+  background-color: #fdc886;
+  border: none;
+  color: #232631;
+  font-family: 'Poppins-SemiBold', sans-serif;
+  font-size: 16px;
+}
+
+/* Navbar */
+
+#navbar {
+  font-family: 'Poppins-Medium', sans-serif;
+  font-size: 16px;
+  padding: 60px;
+  background-color: #fafafa;
+}
+
+#navbar .navbar-item {
+  padding: 30px;
+}
+
+#navbar .brand {
+  font-family: 'Nunito', sans-serif;
+  font-size: 28px;
+}
+
+#navbar .input-search {
+  border-radius: 12px;
+  height: 56px;
+  width: 322px;
+}
+
+input::placeholder {
+  overflow: visible;
+  font-family: 'Poppins-Medium', Bootstrap-icons;
+  padding-left: 15px;
+  padding-right: 56px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#navbar .btn-login {
+  width: 104px;
+  color: #5a4fcf;
+  background-color: rgba(90, 79, 207, 0.1);
+  border: none;
+  font-size: 16px;
+  white-space: nowrap;
+  border-radius: 12px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #000000;
+}
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+  font-size: 1.1em;
+}
+.navbar {
+  padding: 0;
+}
+.navbar .navbar-brand {
+  padding: 0 0.7em;
+}
+.navbar .navbar-nav .nav-link {
+  padding: 1em 0;
+}
+.navbar .navbar-nav .nav-item {
+  margin: 0 1em;
+}
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #5a4fcf;
+  width: 0%;
+  content: '';
+  height: 4px;
+}
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%;
+}
+
+/* End of Navbar */
+
+/* Ads Section */
+
+#ads {
+  position: relative;
+  margin-bottom: 120px;
+}
+
+#ads img {
+  border-radius: 24px;
+}
+
+#ads .single-image {
+  overflow: hidden;
+}
+
+#ads .info-card {
+  width: 390px;
+  height: 297px;
+  top: 120px;
+  border-radius: 24px;
+  text-align: left;
+  position: absolute;
+  background-color: white;
+  padding: 24px 0px 24px 24px;
+}
+
+#ads .info-card .rating-star {
+  color: #ffb800;
+  font-family: 'Poppins-SemiBold', sans-serif;
+  font-size: 18px;
+}
+
+#ads .info-card .rating-star .total-rating {
+  color: #656565;
+  font-family: 'Poppins-Regular', sans-serif;
+  font-size: 16px;
+}
+
+#ads .info-card .title {
+  color: #232631;
+  font-family: 'Poppins-SemiBold', sans-serif;
+  font-size: 22px;
+}
+
+#ads .info-card .price {
+  color: #656565;
+  font-family: 'Poppins-SemiBold', sans-serif;
+  font-size: 18px;
+}
+
+#ads .info-card .place {
+  color: #656565;
+  font-family: 'Poppins-Regular', sans-serif;
+  font-size: 16px;
+}
+
+#ads .btn-warning {
+  background-color: #fdc886;
+  border: none;
+  color: #232631;
+  font-family: 'Poppins-SemiBold', sans-serif;
+  font-size: 16px;
+  padding: 16px 28px 16px 28px;
+}
+
+.btn-warning:hover {
+  background-color: #ffd39d;
+}
+
+.btn-warning:active {
+  background-color: #ffd39d;
+}
+
+.btn-warning:focus {
+  background-color: #ffd39d;
+}
+
+.info-card .note {
+  color: #656565;
+  font-family: 'Poppins-Regular', sans-serif;
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+.top-section-ads-card {
+  line-height: 100%;
+}
+
+.bottom-section-ads-card button {
+  margin-top: 34px;
+}
+
+/* End of Ads Section */
+
+.header {
+  margin-bottom: 41px;
+}
+
+.header .header-subtitle {
+  font-family: 'Poppins-SemiBold', sans-serif;
+  font-size: 16px;
+  color: #5a4fcf;
+  text-transform: uppercase;
+}
+
+.header .header-title {
+  font-family: 'Poppins-SemiBold', sans-serif;
+  font-size: 28px;
+  color: #232631;
+}
+
+/* Why Us ? Section */
+
+#why-us .card {
+  border: none;
+  border-radius: 24px;
+  height: 100%;
+}
+
+#why-us .card-body {
+  padding: 24px 24px 54px 24px;
+}
+
+#why-us .card .card-title {
+  font-family: 'Poppins-SemiBold', sans-serif;
+  font-size: 18px;
+  color: #232631;
+  padding-top: 24px;
+}
+
+#why-us .card .card-subtitle {
+  color: #656565;
+  font-family: 'Poppins-Regular', sans-serif;
+  font-size: 16px;
+  padding-top: 12px;
+}
+
+#why-us .card .card-footer {
+  border-radius: 24px;
+  background-color: #ffffff;
+  border: none;
+  text-decoration: none;
+  padding: 24px;
+}
+
+#why-us .card .card-footer span {
+  font-family: 'Poppins-SemiBold', sans-serif;
+  font-size: 16px;
+  color: #232631;
+  white-space: nowrap;
+}
+
+#why-us .card:hover > .card-footer {
+  background-color: #fdc886;
+}
+
+/* End of "Why Us ?" Section */
+
+/* "Most Popular Restaurant" Section */
+
+#most-popular-restaurant {
+  margin-top: 120px;
+}
+
+#most-popular-restaurant .left-section .description {
+  color: #656565;
+  font-family: 'Poppins-Regular', sans-serif;
+  font-size: 16px;
+  width: 360px;
+}
+
+/* End of "Most Popular Restaurant" Section */
+
+/* "Nearest Restaurant" Section */
+
+#nearest-restaurant {
+  margin-top: 120px;
+}
+
+#nearest-restaurant .btn-light {
+  background-color: #f2f2f2;
+  color: #656565;
+  border-radius: 12px;
+  padding: 20px 24px 20px 24px;
+  font-family: 'Poppins-Medium', sans-serif;
+  font-size: 16px;
+}
+
+/* End of "Nearest Restaurant" Section */
+
+/* "Expert Chef" Section */
+#expert-chef {
+  margin-top: 73px;
+  margin-bottom: 73px;
+}
+
+#expert-chef .info-card {
+  padding: 24px;
+  width: 100%;
+  background-color: #fafafa;
+}
+
+#expert-chef .info-card:hover {
+  padding: 24px;
+  background-color: white;
+}
+
+#expert-chef .info-card a {
+  font-family: 'Poppins-Medium', sans-serif;
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+#expert-chef .info-card:hover a {
+  color: #fdc886;
+}
+
+#expert-chef .info-card .title {
+  font-size: 22px;
+}
+
+.single-image {
+  position: relative;
+}
+
+#expert-chef .card-exp {
+  position: absolute;
+  border: none;
+  border-radius: 24px;
+  text-align: center;
+  top: 10%;
+  right: -5%;
+  background-color: #ffffff;
+}
+
+#expert-chef .card-exp .card-body {
+  padding: 30px 46px 30px 46px;
+}
+
+#expert-chef .card-exp .card-title {
+  font-family: 'Poppins-SemiBold', sans-serif;
+  font-size: 18px;
+  color: #232631;
+  padding-top: 24px;
+}
+
+#expert-chef .card-exp .card-subtitle {
+  color: #656565;
+  font-family: 'Poppins-Regular', sans-serif;
+  font-size: 16px;
+  padding-top: 12px;
+}
+
+#expert-chef .card-detail {
+  position: absolute;
+  border: none;
+  border-radius: 24px;
+  bottom: 5%;
+  left: -10%;
+  background-color: #ffffff;
+}
+
+#expert-chef .card-detail .card-body {
+  padding: 24px;
+}
+
+#expert-chef .card-detail .card-title {
+  font-family: 'Poppins-SemiBold', sans-serif;
+  font-size: 18px;
+  color: #232631;
+}
+
+#expert-chef .card-detail .card-subtitle {
+  color: #656565;
+  font-family: 'Poppins-Regular', sans-serif;
+  font-size: 16px;
+}
+
+#expert-chef .card-detail a {
+  text-decoration: none;
+  color: #fdc886;
+  font-family: 'Poppins-SemiBold', sans-serif;
+  font-size: 16px;
+}
+
+/* End of "Expert Chef" Section */
